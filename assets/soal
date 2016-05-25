@@ -1,0 +1,17 @@
+kereta 
+id_kereta int(2) AI pk,
+nama varchar(15),
+jumlah_gerbong int(2),
+kelas varchar(20)
+
+penumpang
+id_penumpang int AI pk
+nama varchar(20)
+tanggal lahir date
+jenis_kelamin varchar(20)
+id_kereta int(2) fk->kereta.id kereta
+
+buat halaman menginsert data kereta
+buat halaman insert data penumpang
+buat halaman menampilkan data kereta -> klik muncul data penumpang
+edit dan delete pada data penumpang.
